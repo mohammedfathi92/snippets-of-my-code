@@ -1,0 +1,48 @@
+<?php
+
+return [
+    'items' => [
+        'Dashboard' => 'Dashboard',
+        'Users' => 'Users',
+        'Roles' => 'Roles',
+        'CMS' => 'CMS',
+        'Pages' => 'Pages',
+        'Posts' => 'Posts',
+        'Categories' => 'Categories',
+        'Tags' => 'Tags',
+        'News' => 'News',
+        'Payments' => 'Payments',
+        'Payment Settings' => 'Payment Settings',
+        'Webhook Calls' => 'Webhook Calls',
+        'Tax Classes'  => 'Tax Classes ',
+        'Invoices' => 'Invoices',
+        'Ecommerce' => 'Ecommerce',
+        'Products' => 'Products',
+        'Shop' => 'Shop',
+        'Orders' => 'Orders',
+        'Categories' => 'Categories',
+        'Attributes' => 'Attributes',
+        'Tags' => 'Tags',
+        'Brands' => 'Brands',
+        'Coupons' => 'Coupons',
+        'Shipping Rules' => 'Shipping Rules',
+        'Settings' => 'Settings',
+        'Sliders' => 'Sliders',
+        'File Manager' => 'File Manager',
+        'Administration' => 'Administration',
+         'Themes'  => 'Themes ',
+        'Modules'  => 'Modules ',
+        'Currencies'  => 'Modules ',
+        
+        'Notification Templates' => 'Notification Templates',
+        'Menu' => 'Menu',
+        'Custom Fields' => 'Custom Fields',
+        'Activities' => 'Activities',
+        'Cache Management' => 'Cache Management',
+
+                'Form Builder' => 'Form Builder',
+        'Forms' => 'Forms',
+        'Forms Settings' => 'Forms Settings',
+        
+    ],
+];

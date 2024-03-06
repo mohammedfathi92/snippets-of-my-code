@@ -1,0 +1,232 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Mohammed
+ * Date: 9/7/16
+ * Time: 4:48 PM
+ */
+
+return [
+    'payment_error_msg'                => "Error.. Something happened, Please try again",
+    'choose_user_list'                 => "To Create New Booking Choose User From Below List.",         
+    'btn_create'                       => "Create",
+    'backend_page_title'               => "Booking",
+    'label_gender'                       => "Gender",
+    'label_house_service'                          => "Housing Services",
+    'label_course_custom_price_per_week'                          => "Course Custom Price Per week",
+    'msg_custom_price'                          => "If You Left This Input empty we will choose The course Price",
+    'label_price_per_week'                          => "Price Per Week",
+    'label_service_custom_price_per_week'                          => "Service Custom Price Per week",
+    'label_num_weeks'                                 => "Number Of weeks",
+    'label_transport_service'                          => "AirPort Reception service",
+    'label_service_custom_price'                          => "Service Custom Price",
+    'label_insurance_service'                          => "Insurance Service",
+    'label_books_service'                          => "Books Service",
+    'label_advisor_service'                          => "Advisor Service",
+    'success_updated'                          => "Updated Successfully",
+    'success_created'                          => "Created Successfully",
+    'btn_view_booking_page'                          => "View Details",
+    'alert_attention_label'                          => "Attention !",
+
+
+    'label_booking_id'                          => "Booking ID",
+    'label_bank_account'                          => "Institute Bank Account",
+    'label_booking_at'                          => "Booking At",
+    'btn_download_bill'                          => "Download invoice",
+    'invoice_box_title'                          => "Your Purchase Invoice",
+    'label_bill_item'                          => "Item",
+    'label_bill_price'                          => "Item Price per Week",
+    'title_invoice'                          => "Invoice",
+    'label_billed_to'                          => "Billed To",
+    'label_payment_method'                          => "Payment Method",
+
+    
+
+
+
+    
+    'label_bill_weeks'                          => "Weeks",
+    'label_bill_total_price'                    => "Total Price",
+    'label_bill_all_total_price'                    => "Total Booking Price",
+    'success'                          => "Item",
+    'success'                          => "new",
+    
+    
+    'label_advisor'                          => "Choose Advisor",
+    'label_house_booked'                          => "Choose accomidation Place",
+    'label_send_email'                 => "Send Email for Student",
+    'hint_send_email'                  => "We Will notify this user with his/her new booking updates",
+    
+    'label_media'    => "Media",
+    'option_male'    => "Male",
+    'option_female'    => "Female",
+    
+    'label_zip_code'    => "Postal Code",
+    'mystudents_link_in_admin_menu'    => "Advisor Panal",
+    'booking_code'               => "Booking Code",
+    'total_price'               => "Total Price",
+
+ 
+
+    'backend_page_header'              => "Booking Management",
+    'backend_page_create_header'       => "Add Booking",
+    'backend_page_update_header'       => "update Booking",
+    'backend_page_show_header'         => "Booking Information",
+    'heading_personal_information'     => "Personal information",
+    'heading_booking_information'      => "Booking information",
+    'frontend_page_header'             => "Booking",
+    'page_title'                       => "Booking",
+    'institute_booking_page_title'     => ":institute booking",
+    'package_booking_page_title'       => ":package booking",
+    'course_booking_page_title'        => ":course booking",
+    'personal_information_heading'     => "Your Personal information",
+    'related_booking_title'            => "Related Booking",
+   
+    'label_name'                       => "Your full name",
+    'label_first_name'                 => "First Name",
+    'label_last_name'                  => "Last Name",
+    'label_user_name'                  => "Full name",
+    'label_user_email'                 => "Email Address",
+    'label_user_nationality'           => "Nationality",
+    'label_user_mobile'                => "Mobile Number",
+    'label_booking_type'               => "Booking Type",
+    'label_email'                      => "Email",
+    'label_email_confirmation'         => "Email Confirmation",
+    'label_phone'                      => "Phone Number",
+    'label_card_name'                  => "Name on Card",
+    'label_card_number'                => "Card Number",
+    'label_card_expiration_date'       => "Expiration date",
+    'label_country'                    => "Your Destination",
+    'label_num_bags'                   => "Number of bags",
+    'label_package_type'               => "Package type",
+    'label_institutes_level'           => "Institutes Level",
+    'label_notes'                      => "Notes",
+    'label_mobile'                     => "Mobile Number",
+    'label_whatsapp_number'            => "Whatsapp Number",
+    'label_communication_source'       => "Communication Source",
+    'option_communication_types'       => ["email" => "Email", "mobile" => "Mobile", "whatsapp" => "Whatsapp", "sms" => "SMS messages",],
+    'label_num_adult'                  => "Adults ",
+    'label_num_childes'                => "Childes ",
+    'label_num_courses'                => "Number of Courses ",
+    'label_arrival_date'               => "Arrival Date ",
+    'label_num_persons'                => "Number of Persons",
+    'label_departure_date'             => "Departure Date",
+    'label_nationality'             => "Nationality",
+    
+    'label_status'                     => "Active",
+    'label_package'                    => "Package",
+    'label_destination'                => "Destination Country",
+    'label_booking_date'               => "Booking Date",
+    'label_institute'                  => "Institute",
+    'label_course'                     => "Course",
+    'label_total'                      => "Total",
+    'label_city'                       => "City",
+    'label_booking_status'             => "Status",
+    'label_residences_place'           => "Residences Place",
+    'label_birth_date'                 => "Birth Date",
+    'help_num_childes'                 => "age under 12 years old",
+    'link_booking'                     => "Booking",
+    'link_in_admin_menu'               => "Booking",
+    'label_card_type'                  => "Card Type",
+    'security_code'                    => "Security Code",
+    'last_digits'                      => "Last 3 digits",
+         'previcy_conditions'                      => "Terms & Conditions",
+         'previcy_conditions_text'                      => "I accept terms and conditions and general policy.",
+
+    'label_payment_method'             => "Payment Method",
+    'paypal_method_selected_text'             => "After you confirm booking it will redirect you to paypal payment page",
+    'office_method_selected_text'             => "After you confirm booking we will contact you in 24 hours only.",
+    'paypal_hint'                      => "The safer, easier way to pay.",
+    'office_payment_hint'              => "Pay at our office",
+    'institutes_payment_hint'          => "Pay for Institute Directly",
+    'link_backend_menu'                => "Booking",
+    'btn_confirm_booking'              => "CONFIRM BOOKING",
+    'label_address_line1'              => "Address (line 1)",
+    'label_address_line2'              => "Address (line 2)",
+    'id'                               => "ID",
+    'name'                             => "Name",
+    'nationality'                      => "Nationality",
+    'email'                            => "Email",
+    'type'                             => "Booking Type",
+    'type_option'                      => ['free' => "Special Booking", 'institute' => "Institute", "course" => "Course", "package" => "Package"],
+    'status'                           => "Status",
+    'status_options_color'             => "{1} warning |{2} success | {3} primary|{4}danger",
+    'status_options'                   => "{1} Pending | {2} Confirmed | {3} closed |{4} canceled",
+    'alert_status_pending'                   => "Hi :user Your booking status with order No. :num is pending untile our office review your order",
+    'status_active'                    => "Active",
+    'status_inactive'                  => "Disabled",
+    'last_update'                      => "Last Update",
+    'success_multi_delete'             => ":count Records Deleted Successfully",
+    'id_not_found'                     => "Booking deleted or not found check url again",
+    'error_delete'                     => "Can't delete country record ... tray again after refresh page",
+    'alert_thank_you'                  => "Thank You. Your Booking Order is Confirmed Now. <br/> A confirmation email has been sent to your provided email address ",
+    'email_thank_you'                  => "Thank You. Your Booking Order is Confirmed Now. we will contact you very soon",
+    'email_header_booking_information' => "Your booking information ",
+    'error_multi_delete_empty'         => "You didn't select any record to delete",
+
+    'validation_name_locale_required' => "Booking name in {:locale} is required",
+    'validation_card_type_required'   => "Select payment card type",
+    'validation_card_name_required'   => "Enter card holder name",
+    'validation_card_number_required' => "Enter card number",
+    'validation_expire_month_required'=> "Select Expire Month",
+    'validation_expire_year_required' => "Select Expire Year",
+    'validation_ccv_required'         => "Enter ccv security code",
+
+     'label_additional_services'         => "Additional Services",
+     'label_transporting_services'         => "Airport Reception",
+     'label_insurance_services'         => "Insurance Service",
+     'input_yes'                       => "Yes",
+     'input_no'                       => "No",
+     'label_additional_fees'         => "Additional Fees",
+     'btn_selected'         => "Selected",
+     'btn_select'         => "Select",
+     'label_course_name'         => "Course Name",
+     'label_institute_name'         => "Institute Name",
+     'label_country_name'         => "Country Name",
+     'label_city_name'         => "City Name",
+     'label_start_date'         => "Start Date",
+     
+
+     
+     
+
+
+    'booking_order_note'              => "Dear student our Support team will contact you as soon as you place your order to confirm your order.",
+    'holder_notes'                    => "did you have notes?",
+    'title_fees'                      => "Additional Fees",
+    'total_cost'                      => "Total Cost",
+    'booking_box_title'               => "- Book Now -",
+    'summary_box_title'               => "- Summary -",
+    'step_details'                    => "Your Details",
+    'step_payments'                   => "Payment Details",
+
+    'btn_book_compelete'                   => "Confirm Booking",
+    'text_media_hint'                   => "Maximum allawable size to upload is 10 MP",
+    'label_documents'                   => "Your Passport copy",
+    
+
+    'btn_send_message'                => "sen message",
+
+    'text_details_menu'                => "Details",
+    'text_advisor_menu'                => "Advisor",
+    'text_housing_menu'                => "Housing",
+
+    'label_residental_country'  => 'Residental Country',
+    'label_whatsapp'  => 'Whatsapp Number',
+    'label_course_name'  => 'Course Name',
+    'label_course_weeks'  => 'Number of course weeks',
+    'label_course_total_price'  => 'Course total Price',
+    'label_booking_total_price'  => 'Booking total price',
+    'label_last_update'  => 'Last Update',
+    'title_course_services'  => 'Course Services',
+    'label_service_name'  => 'Service name',
+    'label_house_type'  => 'Housing type',
+    'label_house_family'  => 'Family house',
+    'label_house_studental'  => 'students house',
+    'label_house_weeks'  => 'Number of service weeks',
+    'label_service_price'  => 'Service Price',
+    
+    
+
+
+];

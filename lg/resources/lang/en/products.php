@@ -1,0 +1,58 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Mohammed
+ * Date: 7/22/16
+ * Time: 10:17 AM
+ */
+
+return [
+    'page_title'                         => "Products",
+    'page_header'                        => "Products Management",
+    'title_create'                       => "Create a new Product",
+    'title_update'                       => "Update Product data",
+    'title_list'                         => "Products List",
+    'link_list_all'                      => "Products",
+    'link_create'                        => "Add",
+    'link_edit'                          => "Edit",
+    'link_delete'                        => "Delete",
+    'currency_symbol'                    => "Egp",
+    'search_about'                       => "Search for",
+    'link_view_details'                  => "View Details",
+    'projects_sort_by'                   => "LG Products by Line Of Business",
+    'id'                                 => "#",
+    'name'                               => "Name",
+    'products_count'                     => "Products",
+    'sold_count'                         => "Sold",
+    'opportunities_count'                => "Opportunities",
+    'count_times'                        => ":number Times",
+    'count_opportunities'                => ":number Opportunity",
+    'promotion'                          => "Promotion",
+    'category'                           => "Category",
+    'price'                              => "Price",
+    'photo'                              => "Photo",
+    'created_at'                         => "Created at",
+    'updated_at'                         => "Last Update",
+    'option_type_b2b'                    => "Business to Business (B2B)",
+    'option_type_b2c'                    => "Business to Client (B2C)",
+    'label_name'                         => "Product Name",
+    'select_product_type'                => "-- This product for --",
+    'label_description'                  => "Description",
+    'label_details'                      => "Details",
+    'label_type'                         => "Product Type",
+    'created_successfully'               => 'Product Created Successfully',
+    'updated_successfully'               => ':name Product updated Successfully',
+    'deleted_successfully'               => 'Product Deleted successfully',
+    'error_id_not_found'                 => "Product Identify not found",
+    'error_create'                       => "Ooops...Product not created.. tray again after refresh this page.",
+    'error_update'                       => "Ooops...Product not updated.. tray again after refresh this page.",
+    'error_delete'                       => "Ooops...Product not Deleted.. tray again after refresh this page.",
+    'message_confirm_delete'             => "Are you sure that you want to delete this product?",
+    'no_data'                            => 'No Products ',
+    'no_search_result'                   => 'No Search results found',
+    'validation_arabic_name_required'    => "Product Name in Arabic is required",
+    'validation_english_name_required'   => "Product Name in English is required",
+    'validation_name_max'                => "Name length shouldn't be more than :max character",
+    'validation_description_max'         => "Description length shouldn't be more than :max character",
+    'validation_name_in_locale_required' => "Product Name in :locale is required",
+];

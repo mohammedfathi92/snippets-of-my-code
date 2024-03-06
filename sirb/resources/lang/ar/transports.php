@@ -1,0 +1,55 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mohammed
+ * Date: 9/7/16
+ * Time: 4:48 PM
+ */
+
+return [
+    'backend_page_title'                    => "وسائل المواصلات والنقل",
+    'backend_page_header'                   => "إدارة وسائل المواصلات",
+    'backend_page_create_header'            => "إضافة وسيلة مواصلات",
+    'backend_page_update_header'            => "تحديث بيانات وسيلة المواصلات",
+    'label_name'                            => "الاسم",
+    'label_description'                     => "الوصف",
+    'label_photo'                           => "صورة",
+    'label_in_home'                         => "عرض في الرئيسية",
+    'label_company_name'                    => "اسم الشركة",
+    'label_type'                            => "النوع",
+    'label_status'                          => "مفعل",
+    'label_gallery'                         => "ألبوم صور",
+    'label_country'                         => "الدولة",
+    'label_city'                            => "المدينة",
+    'label_meta_keywords'                   => "كلمات الميتا",
+    'label_meta_description'                => "وصف الميتا",
+    'link_transports'                       => "وسائل المواصلات",
+    'link_in_admin_menu'                    => "وسائل المواصلات",
+    'link_transports_create'                => "إضافة وسيلة مواصلات",
+    'link_transports_update'                => "تحديث بيانات وسيلة المواصلات",
+    'link_backend_menu'                     => "وسائل المواصلات",
+    'menu_link_transports'                  => "وسائل المواصلات",
+    'transport_type'                        => ['flight' => "طيران", 'tran' => "قطار", 'ship' => "سفينة", "bus" => "اتوبيس", "car" => "سيارة"],
+    'transport_type_icon'                   => ['flight' => "fa fa-plane", 'tran' => 'fa fa-tran', 'ship' => "fa fa-ship", "bus" => "fa fa-bus", "car" => "fa fa-car"],
+    'id'                                    => "رقم",
+    'photo'                                 => "صورة",
+    'country'                               => "الدولة",
+    'city'                                  => "المدينة",
+    'name'                                  => "الاسم",
+    'type'                                  => "النوع",
+    'status'                                => "الحالة",
+    'status_active'                         => "مفعل",
+    'status_inactive'                       => "معطل",
+    'last_update'                           => "آخر تحديث",
+    'btn_show_more_transports'              => "إظهار وسائل مواصلات أكثر",
+    'success_created'                       => "تم إضافة وسيلة المواصلات بنجاح",
+    'success_updated'                       => "تم تحديث وسيلة المواصلات بنجاح",
+    'success_deleted'                       => "تم حذف وسيلة المواصلات بنجاح",
+    'success_multi_delete'                  => "تم حذف :count سجل بنجاح",
+    'id_not_found'                          => "لم يتم العثور على السجل المطلوب .. ربما تم حذفه.",
+    'error_delete'                          => "غير قادر على إتمام عملية الحذف ... حاول مرة أخرى بعد تحديث الصفحة",
+    'error_multi_delete_empty'              => "لم يتم تحديد أي سجل للحذف",
+    'validation_name_locale_required'       => "اسم وسيلة المواصلات باللغة :locale مطلوب",
+    'message_transport_type_not_found'      => "نوع وسيلة المواصلات غير موجود",
+    'message_type_dose_not_have_transports' => "لم يتم العثور على أي وسائل مواصلات في النوع المطلوب",
+];

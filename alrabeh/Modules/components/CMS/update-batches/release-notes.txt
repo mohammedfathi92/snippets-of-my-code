@@ -1,0 +1,24 @@
+1.6
+- use Tag from Utility module
+------------------------------------------------
+1.4.9
+- add new boolean column (internal) to posts table.
+- add internal structure for blog and pages.
+------------------------------------------------
+1.4.7
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+------------------------------------------------
+1.4.6
+- add CMS category for related settings
+-------------------------------------------------
+1.4.5
+- fix uninstall postables table remove
+---------------------------------------------------
+1.4.4
+- fix posts casts.
+    move casts from Post model to parent Content model.
+-------------------------------------------------
+1.4.1
+- add setKeywords to Modules/modules/CMS/Classes/SEOTools.php
+- use setKeywords inside setSEO method in Modules/modules/CMS/Http/Controllers/FrontendController.php

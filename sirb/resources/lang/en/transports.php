@@ -1,0 +1,55 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mohammed
+ * Date: 9/7/16
+ * Time: 4:48 PM
+ */
+
+return [
+    'backend_page_title'                    => "Transportation",
+    'backend_page_header'                   => "Transportation Management",
+    'backend_page_create_header'            => "Add Transportation",
+    'backend_page_update_header'            => "update Transportation",
+    'label_name'                            => "Title",
+    'label_description'                     => "Description",
+    'label_photo'                           => "Photo",
+    'label_in_home'                         => "Show in home",
+    'label_company_name'                    => "Company Name",
+    'label_type'                            => "Type",
+    'label_status'                          => "Active",
+    'label_gallery'                         => "Photo Gallery",
+    'label_country'                         => "Country",
+    'label_city'                            => "City",
+    'label_meta_keywords'                   => "Meta Keywords",
+    'label_meta_description'                => "Meta Description",
+    'link_transports'                       => "Transportation",
+    'link_in_admin_menu'                    => "Transportation",
+    'link_transports_create'                => "Create a country",
+    'link_transports_update'                => "Update a country",
+    'link_backend_menu'                     => "Transportation",
+    'menu_link_transports'                  => "Transportation",
+    'transport_type'                        => ['flight' => "Flight", 'tran' => "Tran", 'ship' => "Ship", "bus" => "Bus", "car" => "Car"],
+    'transport_type_icon'                   => ['flight' => "fa fa-plane", 'tran' => 'fa fa-tran', 'ship' => "fa fa-ship", "bus" => "fa fa-bus", "car" => "fa fa-car"],
+    'id'                                    => "ID",
+    'photo'                                 => "Transportation Photo",
+    'country'                               => "Country",
+    'city'                                  => "City",
+    'name'                                  => "Transportation Name",
+    'type'                                  => "Type",
+    'status'                                => "Status",
+    'status_active'                         => "Active",
+    'status_inactive'                       => "Disabled",
+    'last_update'                           => "Last Update",
+    'btn_show_more_transports'              => "Show More Transportation",
+    'success_created'                       => "Transportation Created Successfully",
+    'success_updated'                       => "Transportation Updated Successfully",
+    'success_deleted'                       => "Transportation Deleted Successfully",
+    'success_multi_delete'                  => ":count Records Deleted Successfully",
+    'id_not_found'                          => "Transportation deleted or not found check url again",
+    'error_delete'                          => "Can't delete country record ... tray again after refresh page",
+    'error_multi_delete_empty'              => "You didn't select any record to delete",
+    'validation_name_locale_required'       => "Transportation name in {:locale} is required",
+    'message_transport_type_not_found'      => "Transport Type Not Found",
+    'message_type_dose_not_have_transports' => "No Transports Found in selected type",
+];

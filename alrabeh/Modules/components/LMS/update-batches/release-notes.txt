@@ -1,0 +1,18 @@
+1.4.7
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+------------------------------------------------
+1.4.6
+- add LMS category for related settings
+-------------------------------------------------
+1.4.5
+- fix uninstall postables table remove
+---------------------------------------------------
+1.4.4
+- fix posts casts.
+    move casts from Post model to parent Content model.
+-------------------------------------------------
+
+1.4.1
+- add setKeywords to Corals/modules/LMS/Classes/SEOTools.php
+- use setKeywords inside setSEO method in Corals/modules/LMS/Http/Controllers/FrontendController.php

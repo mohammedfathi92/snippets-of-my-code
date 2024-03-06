@@ -1,0 +1,15 @@
+{
+  "code": "Packages-payment-cash",
+  "name": "Cash Payment Gateway",
+  "author": "Packages",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices... to support Cash on delivery (COD)",
+  "namespace": "Packages\\Modules\\Payment\\Cash",
+  "version": "1.0",
+  "folder": "Cash",
+  "autoload": "psr-4",
+  "icon": "fa fa-money",
+  "require": {
+    "Packages-payment": "^1.2"
+  }
+}

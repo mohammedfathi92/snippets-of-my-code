@@ -1,2 +1,3 @@
-# snippets-of-my-code
-This is Snippets of my code for some of projects that I worked on them [For Reading Only]
+# snippets
+
+This is a repository of snippets for my projects, not a full code, So don't waste your time in download it and trying to make any of these projects run, it's just for browsing.

@@ -1,0 +1,9 @@
+{
+  "type": "frontend",
+  "name": "developnet-lms",
+  "caption": "DevelopNet LMS",
+  "extends": null,
+  "assetPath": "assets\/themes\/developnet-lms",
+  "version": "1.0"
+
+}

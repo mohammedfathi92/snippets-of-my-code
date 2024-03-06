@@ -1,0 +1,18 @@
+{
+  "code": "developnet-lms",
+  "name": "Learning Management System",
+  "author": "DevelopNet",
+  "type": "module",
+  "description": "Learning Management System",
+  "namespace": "Modules\\Components\\LMS\\",
+  "provider": "LMSServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "LMS",
+  "autoload": "psr-4",
+  "icon": "fa fa-graduation-cap",
+  "require": {
+    "corals-settings": "^1.8.4",
+    "corals-utility": "^1.0"
+  }
+}

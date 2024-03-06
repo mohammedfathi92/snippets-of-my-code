@@ -1,0 +1,50 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Mohammed
+ * Date: 7/22/16
+ * Time: 7:12 AM
+ */
+return [
+    'options'                   => "Options",
+    'arabic'                    => "Arabic",
+    'english'                   => "English",
+    'submit'                    => "Save",
+    'reset'                     => "Rest Data",
+    'btn_edit'                  => "Edit",
+    'btn_delete'                => "Delete",
+    'btn_add'                   => "Add new",
+    'btn_change'                => "Change",
+    'btn_upload'                => "Upload",
+    'btn_update'                => "Update",
+    'btn_show'                  => "Show",
+    'btn_logout'                => "Logout",
+    'btn_cancel'                => "Cancel",
+    'btn_confirm'               => "Confirm",
+    'text_leads'                => "Leads",
+    'text_opportunities'        => "Opportunities",
+    'text_canceled'             => "Canceled",
+    'link_home'                 => "Home",
+    'link_about'                => "About App",
+    'link_club_management'      => "LGE Club Management",
+    'link_management'           => "Management",
+    'link_categories'           => "Categories",
+    'link_products'             => "Products",
+    'link_opportunities'        => "Opportunities",
+    'link_users'                => "Users",
+    'link_reports'              => "Reports",
+    'link_products_report'      => "Products Report",
+    'link_opportunities_report' => "Opportunities Report",
+    'link_contact_us'           => "Contact us",
+    'app_title'                 => "LG Portal",
+    'tip_export_word'           => "Export in Word file",
+    'tip_export_pdf'            => "Export in PDF file",
+    'tip_export_excel'          => "Export in Excel file",
+    'tip_print'                 => "Print",
+    'menu_item_management'      => "Management",
+    'menu_item_categories'      => "Categories",
+    'menu_item_products'        => "Products",
+    'menu_item_users'           => "Users",
+    'menu_item_opportunities'   => "Opportunities",
+    'management_access_denied'  => "you don't have Permission to access management Panel",
+];

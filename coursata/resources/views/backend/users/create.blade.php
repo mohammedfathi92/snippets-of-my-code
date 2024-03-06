@@ -1,0 +1,243 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Mohammed
+ * Date: 11/10/16
+ * Time: 1:09 AM
+ */
+?>
+@extends('backend.layouts.master')
+
+@section('page_header')
+    <h1 class="page-title">
+        <i class="icon icon-group"></i>{{trans("users.backend_create_page_header")}}
+    </h1>
+@stop
+
+@section('content')
+    <div class="page-content container-fluid">
+        @include('flash::message')
+        {!! Form::open(['files'=>true]) !!}
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+                <div class="panel">
+                    <div class="panel-body">
+                        <div class="form-group {{$errors->has('firstName')?"has-error":''}}">
+                            <label for="first_name"
+                                   class="col-sm-3 control-label">{{trans("users.label_first_name")}}
+                                <span
+                                        class="text-danger">*</span></label>
+                            <div class="col-sm-9">
+                                <input type="text" name="firstName" class="form-control" id="first_name"
+                                       placeholder="" value="{{old('firstName')}}">
+                                @if ($errors->has('firstName'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('firstName') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group {{$errors->has('lastName')?"has-error":''}}">
+                            <label for="first_name"
+                                   class="col-sm-3 control-label">{{trans("users.label_last_name")}}
+                                <span
+                                        class="text-danger">*</span></label>
+                            <div class="col-sm-9">
+                                <input type="text" name="lastName" class="form-control" id="first_name"
+                                       placeholder="" value="{{old('lastName')}}">
+                                @if ($errors->has('lastName'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('lastName') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group {{$errors->has('name')?"has-error":''}}">
+                            <label for="first_name"
+                                   class="col-sm-3 control-label">{{trans("users.label_show_name")}}
+                                <span
+                                        class="text-danger">*</span></label>
+                            <div class="col-sm-9">
+                                <input type="text" name="name" class="form-control" id="first_name"
+                                       placeholder="" value="{{old('name')}}">
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group {{$errors->has('email')?"has-error":''}}">
+                            <label for="email" class="col-sm-3 control-label">{{trans("users.label_email")}}
+                                <span
+                                        class="text-danger">*</span></label>
+                            <div class="col-sm-9">
+                                <dif class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                                    <input type="email" name="email" class="form-control" id="email"
+                                           placeholder="" value="{{old('email')}}">
+                                </dif>
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+                        <div class="form-group {{$errors->has('password')?"has-error":''}}">
+                            <label for="password"
+                                   class="col-sm-3 control-label"> {{trans("users.label_password")}}
+                                <span
+                                        class="text-danger">*</span></label>
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                    <input id="password" name="password" type="password"
+                                           value="{{old('password')}}"
+                                           class="form-control" placeholder="{{trans("users.label_password")}}">
+                                </div>
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                                @endif
+                            </div>
+                        </div>
+                        <div class="form-group {{$errors->has('password_confirmation')?"has-error":''}}">
+                            <label for="password_confirmation"
+                                   class="col-sm-3 control-label"> {{trans("users.label_password_confirmation")}}
+                                <span
+                                        class="text-danger">*</span> </label>
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                    <input id="password_confirmation" name="password_confirmation"
+                                           type="password"
+                                           value="{{old('password_confirmation')}}" class="form-control"
+                                           placeholder="{{trans("users.label_password_confirmation")}}">
+                                    @if ($errors->has('password_confirmation'))
+                                        <span class="help-block">
+                                    <strong>{{ $errors->first('password_confirmation') }}</strong>
+                                </span>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group {{$errors->has('level')?"has-error":''}}">
+                            <label for="level"
+                                   class="col-sm-3 control-label"> Level
+                            </label>
+                            <div class="col-sm-9">
+                                <select name="level" class="form-control select2" data-placeholder="Select Access Level">
+                                    <option value=""></option>
+                                    <option value="1" @if(old('level')==1) selected @endif>Manager</option>
+                                    <option value="2" @if(old('level')==2) selected @endif>Member</option>
+                                </select>
+                                @if ($errors->has('level'))
+                                    <span class="help-block">
+                                    <strong>{{ $errors->first('level') }}</strong>
+                                </span>
+                                @endif
+                            </div>
+                        </div>
+                      
+                        {{--@can('assign permissions')--}}
+                        <div class="form-group {{$errors->has('permissions') ? ' has-error' : '' }}">
+                            <label for="permissions"
+                                   class="col-md-3 control-label">{!! trans("users.label_permissions") !!}
+                                <strong
+                                        class='text-danger'> *</strong></label>
+
+                            <div class="col-md-9">
+                                <select name="permissions[]" id="permissions" class="form-control select2"
+                                        multiple>
+                                    @if($permissions)
+                                        @foreach($permissions as $perm)
+                                            <option value="{{$perm->name}}"
+                                                    @if(in_array($perm->name,old("permissions",[])))selected @endif>{{ucfirst($perm->name)}}
+                                            </option>
+                                        @endforeach
+                                    @endif
+                                </select>
+
+                                @if ($errors->has('permissions'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('permissions') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+                        {{--@endcan--}}
+                           <div class="form-group {{$errors->has("is_advisor")?"has-error":''}}">
+                        <label for="featured" class="label-control col-md-3">
+                            {{trans("institutes.label_is_advisor")}}
+                        </label>
+                        <div class="col-md-9">
+                            <input type="checkbox" name="is_advisor" id="is_advisor" class="toggle-checkbox"
+                                   placeholder=""
+                                   value="1" {{!old("is_advisor")?:"checked"}}>
+                        </div>
+                        @if ($errors->has('is_advisor'))
+                            <span class="help-block">
+                                            <strong>{{ $errors->first('is_advisor') }}</strong>
+                                        </span>
+                        @endif
+
+                    </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <!-- ### IMAGE ### -->
+                <div class="panel panel-bordered panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon wb-image"></i> User Avatar</h3>
+                        <div class="panel-actions">
+                            <a class="panel-action icon wb-minus" data-toggle="panel-collapse"
+                               aria-hidden="true"></a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+
+                        <img src="/images/default-avatar.jpg" style="width:100%"/>
+
+                        <input type="file" name="avatar">
+                    </div>
+                </div><!-- .panel -->
+
+            </div><!-- .col-md-4 -->
+        </div><!-- .row -->
+
+        <!-- PUT Method if we are editing -->
+
+        <!-- CSRF TOKEN -->
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+        <button type="submit"
+                class="btn btn-primary pull-right"><i class="icon wb-plus-circle"></i> Create Account
+        </button>
+
+        {!! Form::close() !!}
+
+        <iframe id="form_target" name="form_target" style="display:none"></iframe>
+        <form id="my_form" action="/{{$locale."/".$backend_uri}}/upload" target="form_target" method="post"
+              enctype="multipart/form-data"
+              style="width:0px;height:0;overflow:hidden">
+            <input name="avatar" id="upload_file" type="file" onchange="$('#my_form').submit();this.value='';">
+            <input type="hidden" name="type_slug" id="type_slug" value="users">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        </form>
+
+    </div><!-- .container-fluid -->
+@stop
